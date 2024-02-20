@@ -1,0 +1,17 @@
+2.7. Wyciagamy trzy karty z tali 52 kart. Jakie jest prawdopodobienstwo, ze zadna z nich nie bedzie treflem? Proszę dokonać numerycznej symulacji problemu. W tym celu:
+a) Proszę uruchomić generator liczb pseudolosowych wbudowany w używany język i (jeśli występuje) zapoznać się z rolą ziarna generatora. W efekcie powinniście Państwo generować liczby pseudolosowe o rozkładzie jednorodnym w przedziale (0,1)
+różne dla kolejnych uruchomień programu.
+b). Zasymulować pojedyncze wyciąganie trzech kart z talii 52 zwracając informację czy wśród wylosowanych kart jest trefl.
+c). Powtórzyć losowanie z pkt. b) wielokrotnie, i zbadać ile powtórzeń losowania należy wykonać aby osiągnąć granicę (z dokładnością 0.1%) częstotliwości odpowiadającej prawdopodobieństwu rzeczywistemu.
+
+2.8. Napisz program wykorzystujący standardowy generator liczb pseudolosowych do wyznaczenia liczby π. Można to zrobić w następujący sposób: załóżmy, że strzelamy do kwadratowej tarczy o rozmiarze 1×1 i sprawdzamy czy punkt trafienia leży w ćwiartce koła o środku w jednym (wybranym) z rogów tarczy i promieniu R=1. Z definicji prawdopodobieństwa geometrycznego wynika, że prawdopodobieństwo P trafienia w ćwiartkę koła wynosi P = 1 4 π. Aby zbadać to numerycznie program powinien generować dwie liczby pseudolosowe z przedziału (0, 1), które opisują miejsce trafienia w tarczę. Następnie sprawdzamy czy odległość punktu trafienia od wybranego rogu tarczy jest mniejsza niż 1. Powtarzając strzelanie do tarczy N razy możemy numerycznie znaleźć wartość P_num = N_t/N , gdzie N_t oznacza ilość trafień w ćwiartkę koła i stąd wyliczyć π. Proszę wyznaczyć liczbę π dla różnych wartości N, np: N = 10, 10^2, 10^3, 10^5.
+
+4.2. Proszę napisać generator liczb pseudolosowych generujący liczby o funkcji gęstości prawdopodobieństwa będącej bokami trapezu o wierzchołkach w punktach (-1,0), (0,1/3), (2,1/3), (3,0). Korzystając z wylosowanych liczb proszę narysować unormowany histogram oddający "eksperymentalną" funkcję gęstości prawdopodobieństwa (FGP) i porównać ją na tym samym wykresie z teoretyczną FGP. Wykonać to porównanie dla różnej liczby (np. 103, 105) losowanych liczb.
+
+5.6. Zmienna losowa X, opisująca długość odcinka, ma rozkład jednorodny na przedziale (0,2).
+a) Proszę znaleźć funkcję gęstości prawdopodobieństwa pól kwadratów o bokach o długości X.
+b) Proszę znaleźć funkcję gęstości prawdopodobieństwa objętości sześcianów o bokacho długości X.
+c) Proszę znaleźć funkcję gęstości prawdopodobieństwa objętości n-wymiarowych sześcianów o bokach o długości X.
+Zadanie proszę rozwiązać analitycznie (korzystając ze wzoru na wyznacznik funkcji gęstości prawdopodobieństwa funkcji zmiennej losowej o znanej funkcji gęstości prawdopodobieństwa) oraz numerycznie (narysować unormowany histogram objętości obliczonych na podstawie wylosowanych długości X). Przedstawić na jednym rysunku otrzymany histogram i wynik analityczny, osobno dla n=2,3,4,5 i 20.
+
+6.7. Napisać bazujący na rozkładzie chi-kwadrat o n=3 generator liczb losowych Y (np. dla n=3). Otrzymany wynik porównać na wykresie z jego analityczną postacią. Zmienne o rozkładzie normalnym proszę otrzymać korzystając z generatora o rozkładzie jednorodnym i transformacji Box-Mullera.
