@@ -1,3 +1,5 @@
+Programy napisane w ramach przedmiotu Rachunek Prawdopodobieństwa i Statystyka podczas studiowania Informatyki Stosowanej na Uniwersytecie Jagiellońskim w roku akademickim 2023/24 w grupie ćwiczeniowej prowadzonej przez prof. Bartłomieja Dybca.
+
 2.7. Wyciagamy trzy karty z tali 52 kart. Jakie jest prawdopodobienstwo, ze zadna z nich nie bedzie treflem? Proszę dokonać numerycznej symulacji problemu. W tym celu:
 a) Proszę uruchomić generator liczb pseudolosowych wbudowany w używany język i (jeśli występuje) zapoznać się z rolą ziarna generatora. W efekcie powinniście Państwo generować liczby pseudolosowe o rozkładzie jednorodnym w przedziale (0,1)
 różne dla kolejnych uruchomień programu.
